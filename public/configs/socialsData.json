@@ -1,0 +1,59 @@
+[
+  {
+    "pos": { "x": 175, "y": 250 },
+    "name": "GitHub",
+    "description": "GitHub is where I host my projects.",
+    "link": "https://github.com/AeAloysius",
+    "logoData": { "name": "github-logo", "width": 228.6, "height": 179.5 }
+  },
+    {
+    "pos": { "x": 375, "y": 250 },
+    "name": "YouTube",
+    "description": "Followed YouTube channels to watch more game demo videos.",
+    "link": "https://www.youtube.com/@YunfeiDiao-Dior",
+    "logoData": { "name": "youtube-logo", "width": 160, "height": 110}
+  },
+  {
+    "pos": { "x": 575, "y": 250 },
+    "name": "Resume",
+    "description": "Wanna check out my resume?",
+    "link": "https://github.com/AeAloysius/Resume/blob\n/main/Yunfei%20Diao%20Resume.pdf",
+    "logoData": {
+      "name": "resume-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": 775, "y": 250 },
+    "name": "Linkedin",
+    "description": "Here is my Linkedin, where I share my experience.",
+    "link": "https://www.linkedin.com/in/yunfei-diao-169a83324/",
+    "logoData": {
+      "name": "linkedin-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": 975, "y": 250 },
+    "name": "Instagram",
+    "description": "Instagram is where I share my hobbies and life.",
+    "link": "https://www.instagram.com/aealoysius/",
+    "logoData": {
+      "name": "instagram-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": 1175, "y": 250 },
+    "name": "Email",
+    "address": "diao9@wisc.edu",
+    "logoData": {
+      "name": "email-logo",
+      "width": 128,
+      "height": 128
+    }
+  }
+]

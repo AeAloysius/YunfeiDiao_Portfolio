@@ -1,0 +1,68 @@
+[
+  {
+    "pos": { "x": 250, "y": -300 },
+    "cardHeight": 250,
+    "roleData": {
+      "title": "University of Wisconsin–Madison",
+      "description": "Relevant Coursework: \nGame Design, Virtual Reality, Human-Computer Interaction, Computer Graphics, Mobile Systems, Vector Calculus\n\n(Transferred from University of California, Santa Barbara)",
+      "company": {
+        "name": "B. S. Computer Science (Expected Jun. 2026)",
+        "startDate": "Jan. 2024",
+        "endDate": "Present"
+      }
+    }
+  },
+  {
+    "pos": { "x": 250, "y": -20 },
+    "cardHeight": 530,
+    "roleData": {
+      "title": "Game Engine Developer Intern",
+      "description": "    Optimized UE5 skeletal-mesh LOD workflows, improving animation quality and runtime efficiency. \n\n   Developed automated test cases and created a Windows demo showcasing LOD performance under different conditions.\n\n    Built a combat demo using UE5 Animation Sample: implemented weapon system (IK rigging, hit detection, poise and stamina mechanics, motion matching). \n\n   Enhanced gameplay with advanced combat mechanics (multi-directional hit reactions, combo chains, lock-on system, charge attacks).\n\n   Investigated Motion Matching, integrating it with layered animation to create more natural locomotion.",
+      "company": {
+        "name": "Horizon3D, Tencent",
+        "startDate": "May. 2025",
+        "endDate": "Sep. 2025"
+      }
+    }
+  },
+   {
+    "pos": { "x": 1080, "y": -300 },
+    "cardHeight": 250,
+    "roleData": {
+      "title": "Developer & Designer",
+      "description": "    Designed enemy AI for Library of Meialia (fire chapter). Conducted playtesting and authored QA reports; identified risks in environments, enemies, mechanics, and damage tuning, and proposed design fixes. Tuned boss Flame Wyrm (aggression, cadence, hitboxes, damage values).",
+      "company": {
+        "name": "Minerva Game Studio",
+        "startDate": "Dec. 2024",
+        "endDate": "Present"
+      }
+    }
+  },
+  {
+    "pos": { "x": 1080, "y": -20 },
+    "cardHeight": 250,
+    "roleData": {
+      "title": "Game Design Teaching & Resident Assistant",
+      "description": "    Mentored students in game design & development projects; graded capstone assignments.\n    Designed and taught an elective course on utopias in games; organized community-building activities.",
+      "company": {
+        "name": "X ACADEMY",
+        "startDate": "Jul. 2022",
+        "endDate": "Aug. 2022"
+      }
+    }
+  },
+  {
+    "pos": { "x": 1080, "y": 260 },
+    "cardHeight": 250,
+    "roleData": {
+      "title": "Extracurricular Activities",
+      "description": "    UW-MADISON Housing - Custodian Part-time\n\n    Jinan New Oriental Training School Co. – Physics TA",
+      "company": {
+        "name": "    ",
+        "startDate": "",
+        "endDate": ""
+      }
+    }
+  }
+
+]

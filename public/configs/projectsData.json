@@ -1,0 +1,270 @@
+[
+  {
+    "pos": { "x": -500, "y": 350 },
+    "thumbnail": "mini",
+    "data": {
+      "title": "UE5 Mini Dark Souls game demo",
+      "description": "UE5 Third-Person Combat Demo – Modular Combat & Animation Prototype\n\nA third-person melee prototype built in Unreal Engine 5, featuring modular weapons, precise hit detection, stamina/poise systems, directional knockback with hit-stun, resettable light/heavy combo chains, 8-way rolls/backstep/guard, enemy lock-on with target switching, and an animation stack that combines Motion Matching with layered blends for smooth, natural transitions and reduced ‘mechanical’ feel.\n\nPlayer Controller & Core Systems\n• Movement, camera rotation, jumping, attacking, executions, lock-on/unlock with target switching, stamina consumption/recovery, blocking & mitigation, health.\n\nCombat Mechanics\n• Resettable light/heavy combo chains; running/sprint/jump attacks; hit detection via line/sphere traces with damage + hit-stun + 4-direction knockback; multi-hit dedupe and debug visualization.\n\nDefense & Resources\n• Block timing and success check; stamina timers and thresholds; poise thresholds triggering staggers/knockdowns.\n\nMobility\n• 8-way rolls and backstep; direction selection from velocity/acceleration; adaptive camera boom for readability.\n\nAnimation Quality\n• Explored and integrated Motion Matching, blending with Layered Blend per Bone / Slots—upper-body attacks while lower-body stays on MM locomotion; IK retargeting for cross-skeleton reuse.\n\nEnemy AI (Behavior Tree)\n• Blackboard + services for distance checks and state gating; patrol (random location / reach) → engage → approach → attack → react → die; coordinated with the player lock-on system.\n\nArchitecture & Tuning\n• Enhanced Input mappings; data assets for weapons/segments/values; tunables for trace radius/length, lock-on selection (angle/distance/LOS), and camera offsets.",
+      "layout": "side",
+      "images":[
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162031.png", "alt": "UE5 mini soulslike screenshot 1"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162058.png", "alt": "UE5 mini soulslike screenshot 2"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162136.png", "alt": "UE5 mini soulslike screenshot 3"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162224.png", "alt": "UE5 mini soulslike screenshot 4"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162258.png", "alt": "UE5 mini soulslike screenshot 5"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162414.png", "alt": "UE5 mini soulslike screenshot 6"}
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Demo video",
+          "link": "https://youtu.be/7U_5cv_szE8"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/Mini-Dark-Souls"
+        }
+      ]
+    }
+  },
+  {
+    "pos": { "x": -500, "y": 850 },
+    "thumbnail": "quad",
+    "data": {
+      "title": "Quad Game demo",
+      "description": "QuadGame – HTML5 Canvas Mini Quadcopter:\n\nGame Loop & Frame Pipeline\n• Initialized canvas; built the requestAnimationFrame loop loop(timestamp) with stable dt. Each frame: spawn enemies → handle input & move the player → update enemies/missiles → resolve collisions → render grid, base marker, crafts, missiles, and HUD.\n\nModular Rendering\n• Craft Type 1 (Mavic-like): drawMavicBody()/drawQuad() with diagonal arms, motor pods, and optional nose;\n• Craft Type 2 (Ducted-fan): drawDuctedQuad() with four ring ducts, central fuselage, and large-span props.\n\nControls & Lightweight Physics\n• Movement: WASD strafe/forward, Q/E rotate; thrust along forward/right vectors with damping; M/N toggle motors (stop instantly zeroes velocity).\n• Weapons: spacebar fires missiles at a timed cadence; missiles have lifetime and out-of-bounds culling.\n\nEnemies & Pathing\n• A polyline route defined by pathPts; spawnEnemy() periodically creates HP-bearing enemies; moveEnemies() advances them via segmentwise linear interpolation and prunes when the path ends.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/quad_game/quad.png", "alt": "QuadGame canvas gameplay screenshot" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Live Demo",
+          "link": "https://yunfeidiao.itch.io/quad-game-demo"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/quad-game-demo"
+        },{
+          "id": 2,
+          "name": "Demo Video",
+          "link": "https://www.youtube.com/shorts/s6Lh-aY9LZo"
+        }
+      ]
+    }
+  },
+  {
+    "pos": { "x": -500, "y": 1350 },
+    "thumbnail": "DS",
+    "data": {
+      "title": "Dragon Strike VR game demo",
+      "description": "Members & Contribution\n• Yunfei: Combat systems – dragon design & animation, boss AI behavior, player & dragon HP systems, sword mechanics.\n• Khush Bakht: Environment & VR – sky setup, multi‑layer terrain heights, fire FX + moving particles, trees & grass placement, VR optimization.\n• Yug Marwaha: Audio & deployment – background music, fire & dragon SFX, VR build & deployment, weekly posts & group deliverables.\n\nProject Overview\n• Build an immersive VR boss-fight experience from scratch.\n• Implement health-tracked dragon encounter.\n• Integrate core sound effects + basic enemy AI.\n• Learn VR object interaction, animation, headset deployment workflow.\n\nExecution\n• Player movement, sword attacks, and damage intake functional.\n• Dragon attack logic + synced animations implemented.\n• Dual health systems (player & dragon) fully tracked.\n• Deployed & tested on Meta Quest (VR controllers).\n\nCreativity\n• Open-field scene with grass, trees, fire particle effects.\n• Sword-based fantasy melee focus.\n• Particles + animation polish for feedback & immersion.\n\nAppeal\n• Clear objective: defeat the dragon boss.\n• Immersive VR format elevates engagement.\n• Responsive blend of SFX, animation, enemy reactions.\n\nFunctionality\n• Movement / combat / animation / audio loops stable.\n• Health changes reflected visually + logically.\n• End-to-end playable with consistent performance.\n\nProject Reflection\n(Goal alignment & scope were preserved; delivery matched original intent.)\n\nAlignment with Original Goals\n• Simple interactive VR dragon boss fight delivered.\n• Stayed true to initial scope & description.\n• All planned objectives achieved.\n\nCore Features Implemented\n• Meta Quest VR setup.\n• Dragon AI + animations.\n• Sword combat mechanics.\n• Player & boss health tracking.\n• Integrated music & SFX.\n• Natural terrain, trees, fire FX.\n• Smooth end-to-end gameplay loop.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/Dragon_Strike/DS1.jpg", "alt": "Dragon Strike VR game Playtest" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Demo Video",
+          "link": "https://youtu.be/99dER9A2SNw"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/Dragon-Strike"
+        }
+      ]
+    }
+  },
+  
+  {
+    "pos": { "x": -500, "y": 1850 },
+    "thumbnail": "cyber",
+    "data": {
+      "title": "Cyber Maniac game demo",
+      "description": "Cyber Maniac is a side-scrolling platformer by Pocket Platformer. Players move and jump to trigger mechanisms, collect coins, and explore multiple routes. I owned input feel tuning, trap/level pacing, design plot, and a reusable level data structure.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/cyber_maniac/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20015054.png", "alt": "Cyber Maniac gameplay 1" },
+        { "src": "./projects/cyber_maniac/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20015136.png", "alt": "Cyber Maniac gameplay 2" },
+        { "src": "./projects/cyber_maniac/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20015228.png", "alt": "Cyber Maniac gameplay 3" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Live Demo",
+          "link": "https://yunfeidiao.itch.io/cyber-maniac"
+        },
+        {
+          "id": 1,
+          "name": "Demo Video",
+          "link": "https://youtu.be/lktfMVCwkvA"
+        }
+      ]
+    }
+  },
+
+  {
+    "pos": { "x": -500, "y": 2350 },
+    "thumbnail": "manga",
+    "data": {
+      "title": "Manga & Art",
+      "images": [
+        { "src": "./projects/manga_art/1.jpg", "alt": "Manga art 1" },
+        { "src": "./projects/manga_art/2.jpg", "alt": "Manga art 2" },
+        { "src": "./projects/manga_art/3.jpg", "alt": "Manga art 3" },
+        { "src": "./projects/manga_art/4.jpg", "alt": "Manga art 4" },
+        { "src": "./projects/manga_art/5.jpg", "alt": "Manga art 5" },
+        { "src": "./projects/manga_art/6.jpg", "alt": "collage art 1" }
+      ],
+      "links": []
+    }
+  },
+  {
+    "pos": { "x": 500, "y": 350 },
+    "thumbnail": "gas",
+    "data": {
+      "title": "Game Animation Sample battle demo",
+      "description": "UE5 Third-Person Combat Demo – Modular Combat & Animation Prototype:\nA third-person melee prototype built in Unreal Engine 5, featuring modular weapons, precise hit detection, stamina/poise systems, directional knockback with hit-stun, resettable light/heavy combo chains, 8-way rolls/backstep/guard, enemy lock-on with target switching, and an animation stack that combines Motion Matching with layered blends for smooth, natural transitions and reduced ‘mechanical’ feel.\n\nWeapons & Hit Detection\n• Modular BaseWeapon setup: socket-driven line/sphere traces for hits; applies damage + hit-stun + 4-direction knockback; montage-timed hitboxes.\n• Implemented ignore self/ignore list, multi-hit dedupe per swing, and debug visualization.\n\nCombat Loop\n• 8-way rolls, backstep, guard with stamina/poise interaction; resettable light/heavy combos plus running/sprint/jump attacks.\n• Lock-on / unlock and target switching (left/right or mouse wheel), with camera and movement vectors aligned to the locked target.\n• Stamina/Poise costs and thresholds that gate actions and trigger stagger/knockdown states.\n\nAnimation System\n• Integrated Motion Matching and combined it with Layered Blend per Bone / Animation Slots: upper-body attack montages while the lower body stays on MM-driven locomotion.\n• IK Retargeting for cross-skeleton reuse; direction-aware roll montage selection based on velocity/acceleration.\n\nData & Architecture\n• Data-driven weapon/attack segments (damage, poise, timing); Enhanced Input mappings.\n• Tunables for trace radius/length, collision channels, lock-on selection (angle/distance/LOS), and camera offsets.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/game_animation_sample/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20152353.png", "alt": "UE5 combat demo screenshot 1" },
+        { "src": "./projects/game_animation_sample/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20152459.png", "alt": "UE5 combat demo screenshot 2" },
+        { "src": "./projects/game_animation_sample/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20152625.png", "alt": "UE5 combat demo screenshot 3" },
+        { "src": "./projects/game_animation_sample/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20152946.png", "alt": "UE5 combat demo screenshot 4" },
+        { "src": "./projects/game_animation_sample/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20153147.png", "alt": "UE5 combat demo screenshot 5" },
+        { "src": "./projects/game_animation_sample/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20153448.png", "alt": "UE5 combat demo screenshot 6" },
+        { "src": "./projects/game_animation_sample/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20153602.png", "alt": "UE5 combat demo screenshot 7" },
+        { "src": "./projects/game_animation_sample/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20153659.png", "alt": "UE5 combat demo screenshot 8" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Demo video",
+          "link": "https://youtu.be/S9pktfUAf50"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/Game-Animation-Sample"
+        }
+      ]
+    }
+  },
+  {
+    "pos": { "x": 500, "y": 850 },
+    "thumbnail": "logistics",
+    "data": {
+      "title": "Logistics Simulation Game",
+      "description": "Logistics Simulation Game – Prototype (9×9 Grid, Resource-Delivery Board Game):\nA native HTML/CSS/JS strategy prototype. Three players start from their 🏠 warehouses, roll a D6, and move orthogonally on a 9×9 board. At ⛏️ resource tiles, they draw R/B/G items (1–3, bag cap = 3) or exchange two of the same color → 1×🟠. Deliver color combos to 🏪 Store 1 / 🏬 Store 2 to finish randomized tasks and score points. The first finisher scores; other contributors must pay a 1-item shipping fee on their next visit, and previously contributed items are returned to their warehouse at the start of their next turn. First to 12 points wins. The build features a dark, glassy UI, turn pulse and movement trails, iOS-style modals, HUD panels, and in-page test logging.\n\nBoard & Map Generation:\n• Procedurally builds the 9×9 grid; randomly places 🏠 warehouses per player, 4 resource nodes (incl. the 🟠 exchange), and 2 stores, with centered emoji markers.\n\nTurn & Movement Rules:\n• Implements turn order and D6 roll; enforces orthogonal adjacency; current tile pulses, and traveled cells get a fading trail.\n\nResources & Inventory:\n• Bottom-sheet modal at resource tiles; choosing to pick ends the turn and rolls for 1–3 items; bag cap = 3 with an interactive drop/keep chooser; supports the 2×same-color → 🟠 exchange.\n\nTasks & Scoring:\n• Per-store randomized tasks (color tallies + points); auto-donation from the bag, with contributor tracking; finisher scores, others get feeDue and returnsPending (shipping + item returns next turn start); then the store spawns a new task. \n\nPlayers & Visualization:\n• Stackable, offset meeples; sidebar Actions / Tasks / Players / Log panels (bag contents, coordinates, score, control hints); top legend and turn pill.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/logistics_simulation/logistics.png", "alt": "Logistics simulation board screenshot" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Live Demo",
+          "link": "https://yunfeidiao.itch.io/logistics-simulation-game"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/Logistics-Simulation-game"
+        }
+      ]
+    }
+  },
+  {
+    "pos": { "x": 500, "y": 1350 },
+    "thumbnail": "ui",
+    "data": {
+      "title": "Android Carfolio UI Design",
+      "description": "Cardfolio: from-scratch editable personal card app demonstrating full UI flow.\n\nLayout & Composition\n• ElevatedCard + Row/Column/Box: avatar (left) + info (right)\n• Responsive modifiers (padding, weight, clip, border)\n\nInput & State\n• Name / Hobby / Age via OutlinedTextField (age numeric only)\n• Live preview updates as user types (placeholders when empty)\n\nIcons & Theming\n• Leading icons: Person / Favorite / Info for clarity\n• Custom light/dark gradient background (Surface + Brush.verticalGradient)\n\nInteraction & Edit Lock\n• Edit / Show buttons + AssistChip toggle\n• Dynamic enable/disable of inputs by isEditing\n\nValidation & Feedback\n• Required-field checks with field‑specific prompts\n• Toast: success confirmation on valid save\n\nDev Workflow\n• Git initialized, milestone‑ready submission build.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/android_carfolio/LightTheme_Locked.png", "alt": "Light theme - locked state" },
+        { "src": "./projects/android_carfolio/DarkTheme_Editing.png", "alt": "Dark theme - editing state" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Demo Video",
+          "link": "https://youtu.be/HJY5hCqXXGQ"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/Cardfolio"
+        }
+      ]
+    }
+  },
+   {
+    "pos": { "x": 500, "y": 1850 },
+    "thumbnail": "fireworks",
+    "data": {
+      "title": "Fireworks Simulation",
+      "description": "Fireworks – HTML5 Canvas Animation (Interactive + Physics-lite):\nA minimal Canvas 2D fireworks demo. Click anywhere to spawn a firework; the system also auto-spawns one every 1.5s at a random target. Each firework follows a gravity-affected arc and explodes near its target into colorful particles that fade out over time.\n\nProjectile Kinematics\n• Initial velocity computed toward the target (gravity ay=0.15)\n• Detonates when within 5px of target or after 80 frames\n\nParticle System\n• Explosion spawns ~30 particles (random angle & speed)\n• Gravity ay=0.05, life = 100 frames\n• globalAlpha = life/100 for linear fade-out\n\nColor & Interactivity\n• randomColor() produces vivid RGB palette\n• Click to spawn custom bursts\n• Auto-spawn every 1.5s in upper canvas region",
+      "links": [
+        {
+          "id": 0,
+          "name": "Live Demo",
+          "link": "https://yunfeidiao.itch.io/fireworks-demo"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/Fireworks"
+        },
+        {
+          "id": 2,
+          "name": "Demo Video",
+          "link": "https://www.youtube.com/watch?v=PqdNMHo4hmg"
+        }
+      ]
+    }
+  },
+  {
+    "pos": { "x": 500, "y": 2350 },
+    "thumbnail": "digital",
+    "data": {
+      "title": "Programming & Digital Art",
+      "images": [
+        { "src": "./projects/digital_art/Gible.png", "alt": "Gible" },
+        { "src": "./projects/digital_art/MasterBall.png", "alt": "Master Ball" },
+        { "src": "./projects/digital_art/interact_art.png", "alt": "Interactive digital art piece" },
+        { "src": "./projects/digital_art/rhino_impossible.png", "alt": "Impossible rhino illustration" },
+        { "src": "./projects/digital_art/Lava%20Frog.jpg", "alt": "Lava Frog" },
+        { "src": "./projects/digital_art/Portrait.jpg", "alt": "Digital portrait artwork" },
+        { "src": "./projects/digital_art/Skeleton%20Tree.jpg", "alt": "Skeleton Tree" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Gible Source Code",
+          "link": "https://github.com/AeAloysius/Gible"
+        },
+        {
+          "id": 1,
+          "name": "Master Ball S.C.",
+          "link": "https://github.com/AeAloysius/MasterBall"
+        },
+        {
+          "id": 2,
+          "name": "Interact Art S.C.",
+          "link": "https://github.com/AeAloysius/p5_painting"
+        },
+        {
+          "id": 3,
+          "name": "Rhino Profile",
+          "link": "https://github.com/AeAloysius/rhino"
+        }
+      ]
+    }
+  }
+]

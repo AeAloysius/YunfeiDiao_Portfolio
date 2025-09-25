@@ -1,0 +1,146 @@
+[
+  {
+    "pos": { "x": 0, "y": -100 },
+    "name": "JavaScript",
+    "logoData": {
+      "name": "javascript-logo",
+      "width": 115,
+      "height": 115
+    }
+  },
+  {
+    "pos": { "x": -200, "y": -100 },
+    "name": "Kotlin",
+    "logoData": {
+      "name": "kotlin-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": 0, "y": -300 },
+    "name": "React",
+    "logoData": {
+      "name": "react-logo",
+      "width": 148,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": 0, "y": 100 },
+    "name": "C",
+    "logoData": {
+      "name": "C-logo",
+      "width": 135,
+      "height": 135
+    }
+  },
+  {
+    "pos": { "x": -200, "y": 100 },
+    "name": "Unreal 5",
+    "logoData": {
+      "name": "Unreal-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": -200, "y": -300 },
+    "name": "HTML",
+    "logoData": {
+      "name": "html-logo",
+      "width": 115,
+      "height": 115
+    }
+  },
+  {
+    "pos": { "x": -400, "y": -300 },
+    "name": "CSS",
+    "logoData": {
+      "name": "css-logo",
+      "width": 115,
+      "height": 115
+    }
+  },
+  {
+    "pos": { "x": -400, "y": -100 },
+    "name": "Unity",
+    "logoData": {
+      "name": "Unity-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": -400, "y": 100 },
+    "name": "Java",
+    "logoData": {
+      "name": "Java-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": -600, "y": -300 },
+    "name": "Photoshop",
+    "logoData": {
+      "name": "Photoshop-logo",
+      "width": 135,
+      "height": 135
+   }
+  },
+  {
+    "pos": { "x": -600, "y": -100 },
+    "name": "Premiere Pro",
+    "logoData": {
+      "name": "Premiere-logo",
+      "width": 135,
+      "height": 135
+   }
+  },
+  {
+    "pos": { "x": -600, "y": 100 },
+    "name": "Procreate",
+    "logoData": {
+      "name": "Procreate-logo",
+      "width": 128,
+      "height": 128
+   }
+  },
+  {
+    "pos": { "x": -600, "y": 300 },
+    "name": "Aseprite",
+    "logoData": {
+      "name": "Aseprite-logo",
+      "width": 128,
+      "height": 128
+   }
+  },
+  {
+    "pos": { "x": -400, "y": 300 },
+    "name": "AndroidStudio",
+    "logoData": {
+      "name": "AndroidStudio-logo",
+      "width": 128,
+      "height": 128
+   }
+  },
+  {
+    "pos": { "x": -200, "y": 300 },
+    "name": "Microsoft",
+    "logoData": {
+      "name": "Microsoft-logo",
+      "width": 128,
+      "height": 128
+   }
+  },
+  {
+    "pos": { "x": -0, "y": 300 },
+    "name": "Matlab",
+    "logoData": {
+      "name": "Matlab-logo",
+      "width": 128,
+      "height": 128
+   }
+  }
+]
