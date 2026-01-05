@@ -1,35 +1,44 @@
 [
   {
-    "pos": { "x": -500, "y": 350 },
+    "pos": { "x": -900, "y": 350 },
     "thumbnail": "mini",
     "data": {
       "title": "UE5 Mini Dark Souls game demo",
       "description": "UE5 Third-Person Combat Demo – Modular Combat & Animation Prototype\n\nA third-person melee prototype built in Unreal Engine 5, featuring modular weapons, precise hit detection, stamina/poise systems, directional knockback with hit-stun, resettable light/heavy combo chains, 8-way rolls/backstep/guard, enemy lock-on with target switching, and an animation stack that combines Motion Matching with layered blends for smooth, natural transitions and reduced ‘mechanical’ feel.\n\nPlayer Controller & Core Systems\n• Movement, camera rotation, jumping, attacking, executions, lock-on/unlock with target switching, stamina consumption/recovery, blocking & mitigation, health.\n\nCombat Mechanics\n• Resettable light/heavy combo chains; running/sprint/jump attacks; hit detection via line/sphere traces with damage + hit-stun + 4-direction knockback; multi-hit dedupe and debug visualization.\n\nDefense & Resources\n• Block timing and success check; stamina timers and thresholds; poise thresholds triggering staggers/knockdowns.\n\nMobility\n• 8-way rolls and backstep; direction selection from velocity/acceleration; adaptive camera boom for readability.\n\nAnimation Quality\n• Explored and integrated Motion Matching, blending with Layered Blend per Bone / Slots—upper-body attacks while lower-body stays on MM locomotion; IK retargeting for cross-skeleton reuse.\n\nEnemy AI (Behavior Tree)\n• Blackboard + services for distance checks and state gating; patrol (random location / reach) → engage → approach → attack → react → die; coordinated with the player lock-on system.\n\nArchitecture & Tuning\n• Enhanced Input mappings; data assets for weapons/segments/values; tunables for trace radius/length, lock-on selection (angle/distance/LOS), and camera offsets.",
       "layout": "side",
       "images":[
-        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162031.png", "alt": "UE5 mini soulslike screenshot 1"},
-        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162058.png", "alt": "UE5 mini soulslike screenshot 2"},
-        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162136.png", "alt": "UE5 mini soulslike screenshot 3"},
-        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162224.png", "alt": "UE5 mini soulslike screenshot 4"},
-        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162258.png", "alt": "UE5 mini soulslike screenshot 5"},
-        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162414.png", "alt": "UE5 mini soulslike screenshot 6"}
+        {"src":"./projects/mini_dark_souls/screenshot7.png", "alt": "UE5 mini soulslike screenshot 1"},
+        {"src":"./projects/mini_dark_souls/screenshot8.png", "alt": "UE5 mini soulslike screenshot 2"},
+        {"src":"./projects/mini_dark_souls/screenshot9.png", "alt": "UE5 mini soulslike screenshot 3"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162031.png", "alt": "UE5 mini soulslike blueprint 1"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162058.png", "alt": "UE5 mini soulslike blueprint 2"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162136.png", "alt": "UE5 mini soulslike blueprint 3"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162224.png", "alt": "UE5 mini soulslike blueprint 4"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162258.png", "alt": "UE5 mini soulslike blueprint 5"},
+        {"src":"./projects/mini_dark_souls/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-24%20162414.png", "alt": "UE5 mini soulslike blueprint 6"}
+        
       ],
       "links": [
         {
           "id": 0,
           "name": "Demo video",
-          "link": "https://youtu.be/7U_5cv_szE8"
+          "link": "https://youtu.be/bouRwouqflI"
         },
         {
           "id": 1,
           "name": "Source Code",
           "link": "https://github.com/AeAloysius/Mini-Dark-Souls"
+        },
+        {
+          "id": 2,
+          "name": "Project Doc",
+          "link": "https://github.com/AeAloysius/Mini-Dark-Souls/blob/main/Mini%20Dark%20Souls.pdf"
         }
       ]
     }
   },
   {
-    "pos": { "x": -500, "y": 850 },
+    "pos": { "x": -900, "y": 850 },
     "thumbnail": "quad",
     "data": {
       "title": "Quad Game demo",
@@ -41,23 +50,24 @@
       "links": [
         {
           "id": 0,
+          "name": "Demo Video",
+          "link": "https://www.youtube.com/shorts/s6Lh-aY9LZo"
+        },
+        {
+          "id": 1,
           "name": "Live Demo",
           "link": "https://yunfeidiao.itch.io/quad-game-demo"
         },
         {
-          "id": 1,
+          "id": 2,
           "name": "Source Code",
           "link": "https://github.com/AeAloysius/quad-game-demo"
-        },{
-          "id": 2,
-          "name": "Demo Video",
-          "link": "https://www.youtube.com/shorts/s6Lh-aY9LZo"
         }
       ]
     }
   },
   {
-    "pos": { "x": -500, "y": 1350 },
+    "pos": { "x": -900, "y": 1350 },
     "thumbnail": "DS",
     "data": {
       "title": "Dragon Strike VR game demo",
@@ -82,7 +92,7 @@
   },
   
   {
-    "pos": { "x": -500, "y": 1850 },
+    "pos": { "x": -900, "y": 1850 },
     "thumbnail": "cyber",
     "data": {
       "title": "Cyber Maniac game demo",
@@ -96,20 +106,21 @@
       "links": [
         {
           "id": 0,
-          "name": "Live Demo",
-          "link": "https://yunfeidiao.itch.io/cyber-maniac"
+          "name": "Demo Video",
+          "link": "https://youtu.be/lktfMVCwkvA"
         },
         {
           "id": 1,
-          "name": "Demo Video",
-          "link": "https://youtu.be/lktfMVCwkvA"
+          "name": "Live Demo",
+          "link": "https://yunfeidiao.itch.io/cyber-maniac"
         }
+        
       ]
     }
   },
 
   {
-    "pos": { "x": -500, "y": 2350 },
+    "pos": { "x": -900, "y": 2350 },
     "thumbnail": "manga",
     "data": {
       "title": "Manga & Art",
@@ -125,7 +136,7 @@
     }
   },
   {
-    "pos": { "x": 500, "y": 350 },
+    "pos": { "x": 900, "y": 350 },
     "thumbnail": "gas",
     "data": {
       "title": "Game Animation Sample battle demo",
@@ -156,7 +167,7 @@
     }
   },
   {
-    "pos": { "x": 500, "y": 850 },
+    "pos": { "x": 900, "y": 850 },
     "thumbnail": "logistics",
     "data": {
       "title": "Logistics Simulation Game",
@@ -179,8 +190,38 @@
       ]
     }
   },
+ 
   {
-    "pos": { "x": 500, "y": 1350 },
+    "pos": { "x": 900, "y": 1350 },
+    "thumbnail": "fireworks",
+    "data": {
+      "title": "Computer Graphics Collection",
+      "description": "This card groups several independent projects exploring real-time graphics, simulation, and data-driven interaction. Each project is self-contained and focuses on a distinct technical or conceptual problem.\n\nLow-Poly 3D Environment & Modular Modeling:\nA collection of low-poly 3D scenes featuring buildings, vehicles, and amusement park elements. This project focuses on efficient geometry design, modular asset reuse, and visual clarity, enabling rapid environment construction for interactive and real-time applications.\n\nFabric Simulation:\nA physically based cloth simulation implemented using a spring–mass system with force integration and collision handling. Users can adjust parameters such as stiffness, gravity, and wind to observe real-time changes in fabric behavior and material response.\n\nSwarm Behavior Simulation:\nA 2D Canvas-based simulation modeling collective motion through alignment, separation, cohesion, and obstacle avoidance rules. The system supports real-time tuning of behavior weights and uses motion trails to enhance the readability of emergent group dynamics.\n\nTrain Trajectory & Environmental Visualization:\nA set of independent 2D and 3D simulations visualizing train movement along Bézier, Cardinal, and B-spline curves. The project integrates interactive path editing, speed control, particle-based smoke effects, and dynamic lighting to explore motion along parametric paths.\n\nConstruction & Quadcopter Simulation:\nInteractive simulations of construction machinery and quadcopters with keyboard controls, parameter sliders, and radar-style tracking. This project emphasizes kinematics, spatial reasoning, and real-time control feedback.\n\nHand Pose Detection & 3D Hand Visualization:\nA real-time hand tracking project built with MediaPipe Hands and TensorFlow.js. Detected hand keypoints are converted into 3D coordinates and rendered as articulated skeletal hand models in Three.js, updating dynamically with live video input.\n\nPosture Detection & 3D Skeleton Rendering:\nA multi-person pose detection project using MediaPipe BlazePose to track full-body joints and skeletal structure in real time. Detected pose data is mapped into 3D space and visualized as articulated skeletons for motion analysis and interactive applications.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/graphics_collection/low_poly1.png", "alt": "Low-poly 3D environment" },
+        { "src": "./projects/graphics_collection/low_poly2.png", "alt": "Low-poly 3D environment" },
+        { "src": "./projects/graphics_collection/fabric.png", "alt": "Fabric simulation" },
+        { "src": "./projects/graphics_collection/swarm.png", "alt": "Swarm behavior simulation" },
+        { "src": "./projects/graphics_collection/train1.png", "alt": "Train trajectory visualization" },
+        { "src": "./projects/graphics_collection/train2.png", "alt": "Train trajectory visualization" },
+        { "src": "./projects/graphics_collection/construction.png", "alt": "Construction machinery simulation" },
+        { "src": "./projects/graphics_collection/quadcopter.png", "alt": "Quadcopter simulation" },
+        { "src": "./projects/graphics_collection/hand_pose.png", "alt": "3D hand pose visualization" },
+        { "src": "./projects/graphics_collection/posture.png", "alt": "3D posture detection visualization" },
+        { "src": "./projects/graphics_collection/texture1.png", "alt": "Procedural texture" },
+        { "src": "./projects/graphics_collection/texture2.png", "alt": "Procedural texture" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Project Doc",
+          "link": "https://github.com/AeAloysius/Computer-Graphics-collections/blob/main/Computer%20Graphics.pdf"
+        }
+      ]
+    }
+  }, {
+    "pos": { "x": 900, "y": 1850 },
     "thumbnail": "ui",
     "data": {
       "title": "Android Carfolio UI Design",
@@ -204,33 +245,8 @@
       ]
     }
   },
-   {
-    "pos": { "x": 500, "y": 1850 },
-    "thumbnail": "fireworks",
-    "data": {
-      "title": "Fireworks Simulation",
-      "description": "Fireworks – HTML5 Canvas Animation (Interactive + Physics-lite):\nA minimal Canvas 2D fireworks demo. Click anywhere to spawn a firework; the system also auto-spawns one every 1.5s at a random target. Each firework follows a gravity-affected arc and explodes near its target into colorful particles that fade out over time.\n\nProjectile Kinematics\n• Initial velocity computed toward the target (gravity ay=0.15)\n• Detonates when within 5px of target or after 80 frames\n\nParticle System\n• Explosion spawns ~30 particles (random angle & speed)\n• Gravity ay=0.05, life = 100 frames\n• globalAlpha = life/100 for linear fade-out\n\nColor & Interactivity\n• randomColor() produces vivid RGB palette\n• Click to spawn custom bursts\n• Auto-spawn every 1.5s in upper canvas region",
-      "links": [
-        {
-          "id": 0,
-          "name": "Live Demo",
-          "link": "https://yunfeidiao.itch.io/fireworks-demo"
-        },
-        {
-          "id": 1,
-          "name": "Source Code",
-          "link": "https://github.com/AeAloysius/Fireworks"
-        },
-        {
-          "id": 2,
-          "name": "Demo Video",
-          "link": "https://www.youtube.com/watch?v=PqdNMHo4hmg"
-        }
-      ]
-    }
-  },
   {
-    "pos": { "x": 500, "y": 2350 },
+    "pos": { "x": 900, "y": 2350 },
     "thumbnail": "digital",
     "data": {
       "title": "Programming & Digital Art",
@@ -263,6 +279,131 @@
           "id": 3,
           "name": "Rhino Profile",
           "link": "https://github.com/AeAloysius/rhino"
+        }
+      ]
+    }
+  },
+  {
+    "pos": { "x": 0, "y": 350 },
+    "thumbnail": "KS",
+    "data": {
+      "title": "King's Fields like game demo",
+      "description": "King’s Field–like First-Person Action RPG (Web / Three.js)\n\nA first-person action RPG inspired by early King’s Field and classic Souls-like design, built entirely in JavaScript using Three.js. The project emphasizes systemic combat design, stamina-based decision making, and spatial tension rather than visual fidelity.\n\nCore Player & Combat Systems\n• First-person WASD movement with free-look camera and manual jumping.\n• Stamina-driven action economy: attacking, jumping, sprinting, and dodging all consume stamina.\n• Dual-use Shift input: short press triggers a directional dash, long press enables sustained sprint with continuous stamina drain.\n• Charged attack system: holding the mouse button builds power, increasing damage and stamina cost, with real-time visual charge feedback.\n\nRisk–Reward & Death Loop\n• Souls-inspired death penalty: all collected points drop on death and can be recovered by returning to the death location.\n• Single active drop rule: subsequent deaths overwrite previous drops, increasing tension and risk assessment.\n\nEnemy & Encounter Design\n• Hand-authored enemy spawn points tied to level progression and checkpoint gating.\n• Multiple enemy archetypes (basic, advanced, boss) introduced gradually.\n• Lightweight enemy–enemy collision resolution prevents unfair crowding in narrow spaces.\n\nLevel & World Design\n• Open village-style hub connected to narrow paths, maze sections, and a dedicated boss arena.\n• Level geometry constructed from primitive shapes, focusing on scale, chokepoints, and combat readability.\n• Spatial layout reinforces slow, cautious exploration typical of classic dungeon RPGs.\n\nCheckpoint System\n• Manually activated checkpoints placed at key progression milestones.\n• Only one checkpoint can be active at a time, preserving tension while reducing excessive backtracking.\n\nInventory & Progression\n• Tab-based inventory UI with weapon unlocking and equipment management.\n• 3D preview rendering for weapons and rings using a separate Three.js scene.\n• Passive equipment effects (e.g., life-steal rings) directly integrated into the core combat loop.\n\nTechnical Highlights\n• Modular system architecture separating player control, enemy logic, map construction, inventory UI, and checkpoints.\n• Custom collision handling for player–environment and enemy–enemy interactions.\n• Fully browser-based implementation with no external game engine dependency.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/King's_Field/KS_1.png", "alt": "King's Field like game screenshot 1" },
+        { "src": "./projects/King's_Field/KS_2.png", "alt": "King's Field like game screenshot 2" },
+        { "src": "./projects/King's_Field/KS_3.png", "alt": "King's Field like game screenshot 3" }
+      ],
+      "links": [
+        {
+          "id": 0,
+          "name": "Demo video",
+          "link": "https://www.youtube.com/watch?v=P1OZPzfX11Y"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/KS_Demo"
+        },
+        {
+          "id": 2,
+          "name": "Live Demo",
+          "link": "https://aealoysius.github.io/KS_Demo/"
+        }
+      ]
+    }
+  },
+  {
+    "pos": { "x": 0, "y": 850 },
+    "thumbnail": "Town",
+    "data": {
+      "title": "Graphics Town",
+      "description": "Graphics Town – Procedural 3D Village (Three.js)\n\nGraphics Town is a fully procedural, code-driven 3D village scene built with JavaScript and Three.js. The project focuses on modular scene construction, behavioral animation, and atmospheric world-building, with all geometry, animation, and effects generated directly in code without using external modeling tools.\n\nProcedural Environment Design\n• Modular buildings including simple houses, complex houses, gothic church, and lighthouse, all constructed from primitive geometry.\n• Parameterized architectural elements (walls, roofs, windows, towers) enabling reuse and flexible placement.\n• Village island terrain generated with radial jitter, layered sand and grass rings, and procedural canvas-based textures.\n\nDynamic World Systems\n• Animated ocean using a custom shader with time-based wave deformation and color banding.\n• Particle systems including drifting chimney smoke and large-scale atmospheric rain effects.\n• Rotating lighthouse beam with emissive light cone and subtle intensity breathing.\n\nCharacter & Creature Animation\n• Horse NPC with a simple state machine (walking and grazing), directional movement, leg gait cycles, head and tail secondary motion.\n• Circling birds with continuous flight paths and wing-flapping animation.\n• Row boat and sailing ship following circular ocean routes with bobbing motion and rowing/sailing animations.\n• Predator–prey system featuring a shark that hunts schools of fish, including target selection, boundary constraints, and fish respawn logic.\n\nExpressive Visual Elements\n• Eye Moon landmark featuring camera-facing eye behavior, layered glow effects, color interpolation, jitter motion, and independent blinking cycles.\n• Emphasis on mood and atmosphere through motion, timing, and spatial composition rather than high-fidelity assets.\n\nTechnical Highlights\n• All scene objects implemented as modular GrObject components with unified stepWorld update loops.\n• Combination of procedural geometry, simple state machines, particle effects, shader manipulation, and skeletal-style vertex deformation.\n• Fully browser-based implementation using Three.js, demonstrating a strong focus on graphics programming, animation systems, and interactive world design.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/Graphics_Town/GT_1.png", "alt": "Graphics Town Overview" },
+        { "src": "./projects/Graphics_Town/GT_island.png", "alt": "Graphics Town island" },
+        { "src": "./projects/Graphics_Town/GT_boat.png", "alt": "Graphics Town Boat" },
+        { "src": "./projects/Graphics_Town/GT_Church.png", "alt": "Graphics Town Church" },
+        { "src": "./projects/Graphics_Town/GT_lighthouse.png", "alt": "Graphics Town Lighthouse" },
+        { "src": "./projects/Graphics_Town/GT_shark.png", "alt": "Graphics Town Shark" },
+        { "src": "./projects/Graphics_Town/GT_horse.png", "alt": "Graphics Town Horse" },
+        { "src": "./projects/Graphics_Town/GT_house1.png", "alt": "Graphics Town House" },
+        { "src": "./projects/Graphics_Town/GT_ship.png", "alt": "Graphics Town Ship" },
+        { "src": "./projects/Graphics_Town/GT_moon.png", "alt": "Graphics Town Eye Moon" }
+      ],
+      "links": [
+          {
+          "id": 0,
+          "name": "Source Code",
+          "link": "https://github.com/AeAloysius/Graphics_Town/tree/main"
+        },
+        {
+          "id": 1,
+          "name": "Live Demo",
+          "link": "https://yunfeidiao.itch.io/graphics-town"
+        }
+      ]
+    }
+  },
+  {
+    "pos": { "x": 0, "y": 1350 },
+    "thumbnail": "Homie",
+    "data": {
+      "title": "HomieFindr Android Application",
+      "description": "HomieFindr – Android Roommate & Sublease Matching App (Jetpack Compose)\n\nHomieFindr is a collaborative Android application designed to help students and young professionals find roommates and short-term housing opportunities. The app focuses on profile-based matching, in-app communication, and smooth navigation across listings, people, and conversations.\n\nMy Role & Contributions\n• Designed and implemented the in-app messaging system, including Message List and one-to-one Chat screens.\n• Built Chat UI using Jetpack Compose, supporting real-time message display, scrolling behavior, and back navigation.\n• Implemented Message List logic to display existing conversations and handle navigation into individual chats.\n• Developed and refined the Personal Profile screen UI, presenting user information clearly and consistently across the app.\n\nMessaging & Chat System\n• Message List Screen shows all active conversations and routes users into chat sessions.\n• Chat Screen handles message rendering, input, and conversation-level navigation.\n• Integrated with Firebase backend for message persistence and user identification.\n• Navigation between message list, chat, and profile is handled through a centralized NavGraph.\n\nNavigation & App Structure\n• Contributed to the overall navigation flow using Jetpack Compose Navigation.\n• Bottom navigation integrates Home, People, Messages, and Profile while hiding automatically during chat sessions.\n• Route-based navigation supports deep linking into chat and profile views.\n\nUI & Architecture\n• Built fully in Jetpack Compose with a clean, modern, declarative UI approach.\n• Followed MVVM patterns where applicable to separate UI, state, and data logic.\n• Emphasis on readability, user flow clarity, and mobile-first interaction design.\n\nCollaboration Context\n• Team-based university project developed in Android Studio.\n• Worked closely with teammates responsible for listings, filtering, authentication, and database logic.\n• Final deliverable included a fully navigable, end-to-end functional Android application.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/HomieFindr/HF1.png", "alt": "HomieFindr Poster" },
+        { "src": "./projects/HomieFindr/HF2.png", "alt": "HomieFindr Screenshot 1" },
+        { "src": "./projects/HomieFindr/HF3.png", "alt": "HomieFindr Screenshot 2" },
+        { "src": "./projects/HomieFindr/HF4.png", "alt": "HomieFindr Screenshot 3" },
+        { "src": "./projects/HomieFindr/HF5.png", "alt": "HomieFindr Screenshot 4" },
+        { "src": "./projects/HomieFindr/HF6.png", "alt": "HomieFindr Screenshot 5" }
+      ],
+      "links": [
+         {
+          "id": 0,
+          "name": "Demo video",
+          "link": "https://youtu.be/qCyvNzkAG3A"
+        },
+        {
+          "id": 1,
+          "name": "Source Code",
+          "link": "https://github.com/ParkerB77/HomieFindr/tree/Yunfei"
+        }
+      ]
+    }
+  },
+   {
+    "pos": { "x": 0, "y": 1850 },
+    "thumbnail": "Listtt",
+    "data": {
+      "title": "LLList UI Design",
+      "description": "LLList is a budget-aware, multi-list shopping assistant designed to help college students plan, compare, and complete everyday purchases without overspending or forgetting essential items.\n\nThe project began with contextual inquiry and in-store observations of three participants, which revealed common pain points in daily shopping: fragmented planning artifacts (mental lists, screenshots, bookmarks), lack of real-time budget awareness, uncertainty about price value at the moment of choice, and frequent duplicate or forgotten purchases. These insights were synthesized through affinity diagrams and bullseye models, leading to two core user goals: staying within budget and getting the right item at the best price every time.\n\nGuided by the principle of \"recognition over recall,\" the design evolved from a basic checklist into a multi-list consumption management system. Key features include multi-list organization for different shopping scenarios, a clearly labeled real-time spent-versus-budget bar, item detail views with brand and unit-price comparisons, one-tap substitution suggestions, pinned reminders for frequently forgotten items, and a receipt-style summary that reinforces learning and reuse after each trip.\n\nThe design was iteratively refined through heuristic evaluation and usability testing. These evaluations identified issues such as unclear budget labeling, non-clickable list tiles, and friction in selecting alternatives, which directly informed revisions to interaction flows, icon clarity, and information hierarchy. Final usability tests showed that core tasks were rated easy to moderately easy, with participants praising the visual clarity and transparency of the budget feedback.\n\nOverall, LLList demonstrates an end-to-end user-centered design process, translating qualitative research into a practical tool that supports informed decision-making, cost control, and efficient shopping behavior in real-world contexts.",
+      "layout": "side",
+      "images": [
+        { "src": "./projects/LLList/list1.png", "alt": "Low-Fidelity Prototype" },
+        { "src": "./projects/LLList/list2.png", "alt": "Storyboard" },
+        { "src": "./projects/LLList/list3.png", "alt": "High-Fidelity Prototype" }
+        
+      ],
+      "links": [
+         {
+          "id": 0,
+          "name": "Demo video",
+          "link": "https://youtu.be/p4rwu9F6Haw"
+        },
+        {
+          "id": 1,
+          "name": "Live Demo",
+          "link": "https://www.figma.com/proto/qzrHqcHUJqcwDnYp3muVeT/List-App-hi-fi?node-id=0-1&t=18Kyx2sAH9MXOsUB-1"
+        },
+        {
+          "id": 2,
+          "name": "Project Doc",
+          "link": "https://github.com/AeAloysius/Listtt/blob/main/LLList.pdf"
         }
       ]
     }

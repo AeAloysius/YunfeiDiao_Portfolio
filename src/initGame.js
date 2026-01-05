@@ -75,6 +75,10 @@ export default async function initGame() {
   k.loadSprite("manga", "./projects/classic Art.jpg");
   k.loadSprite("digital", "./projects/digital.png");
   k.loadSprite("DS", "./projects/Dragon_Strike/DS.jpg");
+  k.loadSprite("KS","./projects/KS_Demo_Projectcard.png");
+  k.loadSprite("Town","./projects/Graphics_Town_Projectcard.png");
+  k.loadSprite("Homie","./projects/HomieFindr_Projectcard.png");
+  k.loadSprite("Listtt","./projects/List_Projectcard.png");
 
 
   k.loadSprite("Aseprite-logo", "./logos/Aseprite-logo.png");
